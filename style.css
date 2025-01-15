@@ -1,0 +1,683 @@
+/**
+ * Theme Name: Vision Prime - Child Theme
+ * Theme URI:
+ * Author: Rusty
+ * Author URI:
+ * Description: Vision Prime Child Theme theme.
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: vision-prime-child
+ * Template: vision-prime
+ * Version: 4.0
+ */
+
+.stm-faqs-it .accordion-item {
+    background: #F2F7F9;
+}
+
+.stm-gt {
+    margin-left: calc(100% - 1140px);
+}
+
+.stm-g-int {
+    argin-left: calc(1140px - 100%);
+}
+
+.stm-rt {
+    right: 5%;
+}
+@media (max-width: 1025px) {
+    .stm-rt {
+        right: 0%;
+    }
+}
+
+.stm-w {
+    min-width: 300px;
+}
+
+.stm-serv {
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    line-height: normal;
+    letter-spacing: normal;
+    /* fonts */
+    --body-b3-merriweather-14: Merriweather;
+    --headlines-h5-dm-sans-24: "DM Sans";
+    --heading-2-60: "Playfair Display";
+    --subtitles-16: Poppins;
+    /* font sizes */
+    --body-b3-merriweather-14-size: 14px;
+    --headlines-h5-dm-sans-24-size: 24px;
+    --font-size-lgi: 19px;
+    --headlines-h4-dm-sans-30-size: 30px;
+    --headlines-h6-dm-sans-18-size: 18px;
+    --heading-2-60-size: 60px;
+    --subtitles-16-size: 16px;
+    /* Colors */
+    --dark-gray: #262626;
+    --general-white: #fff;
+    --general-7-secondary-variant: #343434;
+    --general-1-primary: #a29061;
+    --elements-neutral-4: #f2f7f9;
+    /* Gaps */
+    --gap-21xl: 40px;
+    --gap-xl: 20px;
+    --gap-11xl: 30px;
+    --gap-6xl: 25px;
+    --gap-3xs: 10px;
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-113xl: 132px;
+    --padding-47xl: 66px;
+    --padding-11xl: 30px;
+    --padding-4xs: 9px;
+}
+
+.frame-child {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--elements-neutral-4);
+}
+
+.stm-serv-inner {
+    width: 5%;
+}
+
+.frame-item {
+    width: 1810px;
+    height: 1323px;
+    position: relative;
+    background-color: var(--dark-gray);
+    display: none;
+    max-width: 100%;
+}
+
+.title-child {
+    width: 120px;
+    position: absolute;
+    background-color: var(--general-1-primary);
+    height: 1px;
+    transform: rotate(90deg);
+    top: 60px;
+}
+
+.scarica-gratis-il {
+    text-decoration: none;
+    min-width: 205px;
+    height: 36px;
+    position: relative;
+    letter-spacing: 0.4em;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.manuale-dellinvestitore {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--heading-2-60-size);
+    line-height: 66px;
+    font-weight: 400;
+    font-family: var(--heading-2-60);
+    color: var(--general-white);
+}
+
+.titleon {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+    text-align: center;
+    font-size: var(--subtitles-16-size);
+    color: var(--general-1-primary);
+    font-family: var(--subtitles-16);
+}
+
+.at-b2b-consulty,
+.our-services-include {
+    position: relative;
+    line-height: 24px;
+    z-index: 1;
+}
+
+.our-services-include {
+    margin: 0;
+    align-self: stretch;
+    font-size: var(--headlines-h4-dm-sans-30-size);
+    letter-spacing: -0.01em;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.internet-banking-3674177-icon {
+    width: 94px;
+    height: 94px;
+    position: relative;
+    object-fit: cover;
+}
+
+.internet-banking-3674177-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xs) 0 0;
+}
+
+.account-setup {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: -0.01em;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.we-guide-you {
+    position: relative;
+    font-size: var(--body-b3-merriweather-14-size);
+    line-height: 24px;
+    font-family: var(--body-b3-merriweather-14);
+}
+
+.account-setup-parent,
+.banking-options {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.account-setup-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-3xs);
+}
+
+.banking-options {
+    align-self: stretch;
+    background-color: var(--general-7-secondary-variant);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-11xl);
+    box-sizing: border-box;
+    gap: var(--gap-6xl);
+    z-index: 1;
+}
+
+.document-4133407-icon {
+    height: 94px;
+    width: 94px;
+    position: relative;
+    object-fit: contain;
+}
+
+.idea-1786324-icon {
+    position: absolute;
+    width: calc(100% - 10px);
+    top: calc(50% - 42px);
+    right: 5px;
+    left: 5px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 84px;
+    object-fit: cover;
+}
+
+.idea-1786324-wrapper {
+    align-self: stretch;
+    height: 94px;
+    position: relative;
+}
+
+.banking-options-inner,
+.our-services-include-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.banking-options-inner {
+    width: 94px;
+    padding: var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+}
+
+.our-services-include-parent {
+    flex: 1;
+    gap: var(--gap-21xl);
+    max-width: 100%;
+}
+
+.wallet-icon {
+    height: 94px;
+    width: 94px;
+    position: relative;
+    object-fit: cover;
+}
+
+.financial-options {
+    align-self: stretch;
+    background-color: var(--general-7-secondary-variant);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-11xl);
+    box-sizing: border-box;
+    gap: var(--gap-6xl);
+    max-width: 100%;
+}
+
+.financial-options-parent,
+.frame-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+    max-width: 100%;
+}
+
+.financial-options-parent {
+    flex: 1;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.frame-parent {
+    align-self: stretch;
+    flex-direction: row;
+    text-align: left;
+    font-size: var(--headlines-h5-dm-sans-24-size);
+}
+
+.at-b2b-consulty-we-provide-ex-parent {
+    max-width: 1170px;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: var(--headlines-h6-dm-sans-18-size);
+    color: var(--general-white);
+    font-family: var(--headlines-h5-dm-sans-24);
+}
+
+.at-b2b-consulty-we-provide-ex-parent,
+.rectangle-parent,
+.stm-serv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.rectangle-parent {
+    min-height: 1323px;
+    flex: 1;
+    background-color: var(--dark-gray);
+    flex-direction: column;
+    padding: 113px 0px;
+    box-sizing: border-box;
+    gap: var(--gap-21xl);
+    max-width: 95%;
+}
+
+
+
+
+
+.ehf-template-vision-prime .wpml-ls-legacy-dropdown {
+    position: relative;
+    margin-left: auto;
+    max-width: 100%;
+    width: auto;
+    margin: 0 25px 0 10px;
+    align-self: center;
+    display: flex;
+}
+.ehf-template-vision-prime .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    padding: 0;
+    border: 0;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+.ehf-template-vision-prime .wpml-ls-legacy-dropdown .wpml-ls-flag {
+    display: inline;
+    vertical-align: middle;
+}
+.ehf-template-vision-prime .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
+    font-size: 0;
+}
+.ehf-template-vision-prime .wpml-ls-legacy-dropdown:before {
+    content: "";
+    background-image: url(assets/images/arrow_down.webp);
+    height: 6px;
+    width: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    display: none;
+}
+.ehf-template-vision-prime .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:after {
+    content: none;
+}
+.ehf-template-vision-prime .wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
+    width: auto;
+    border: 0;
+    right: auto;
+    padding-top: 6px;
+    transition: all .3s ease;
+}
+.ehf-template-vision-prime .wpml-ls-legacy-dropdown .wpml-ls-sub-menu:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-bottom: 7px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+.ehf-template-vision-prime .wpml-ls.wpml-ls-legacy-dropdown ul.wpml-ls-sub-menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    padding: 0;
+    border: 0;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
+    border-radius: 10px 10px 0 0;
+}
+.ehf-template-vision-prime .wpml-ls.wpml-ls-legacy-dropdown ul.wpml-ls-sub-menu li:last-child a {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.ehf-template-vision-prime .wpml-ls.wpml-ls-legacy-dropdown ul.wpml-ls-sub-menu li a .wpml-ls-display {
+    display: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .at-b2b-consulty-we-provide-ex-parent {
+        gap: var(--gap-11xl);
+    }
+    .rectangle-parent {
+        box-sizing: border-box;
+    }
+    .manuale-dellinvestitore {
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .rectangle-parent {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .stm-serv-inner {
+        width: 0%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .stm-g-int .flex.flex-row.w-full.max-w-\[1170px\].py-\[54px\].px-\[54px\].relative.z-10.mr-\[-2px\].justify-between.mq925\:flex-col {
+        display: flex;
+        flex-direction: column;
+    }
+    .stm-serv-inner {
+        display: none;
+        padding-top: 788px;
+        box-sizing: border-box;
+    }
+    .our-services-include {
+        font-size: var(--headlines-h5-dm-sans-24-size);
+        line-height: 29px;
+    }
+    .rectangle-parent {
+        padding-bottom: 73px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    .stm-serv {
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 950px) {
+    .frame-parent {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 750px) {
+    .stm-serv-inner {
+        display: none;
+    }
+    .banking-options {
+        flex-wrap: wrap;
+    }
+    .our-services-include-parent {
+        gap: var(--gap-xl);
+    }
+    .financial-options {
+        flex-wrap: wrap;
+    }
+    .financial-options-parent,
+    .frame-parent {
+        gap: var(--gap-xl);
+    }
+    .rectangle-parent {
+        gap: var(--gap-xl);
+        padding-bottom: 47px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 600px) {
+    .financial-options {
+        align-self: stretch;
+        background-color: var(--general-7-secondary-variant);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: var(--padding-11xl);
+        box-sizing: border-box;
+        gap: var(--gap-6xl);
+        max-width: 100%;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+    copyright {
+        padding: 0px !important;
+        padding-bottom: 20px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .our-services-include {
+        font-size: var(--headlines-h6-dm-sans-18-size);
+        line-height: 22px;
+    }
+    .account-setup {
+        font-size: var(--font-size-lgi);
+        line-height: 24px;
+    }
+    .rectangle-parent {
+        box-sizing: border-box;
+        padding: 0px 20px;
+    }
+    .banking-options {
+        flex-direction: column;
+    }
+}
+li.stm-top-li:hover .stm-s-men {
+    display: block;
+    left: 100%;
+    top: 0;
+}
+
+/* Parent menu item */
+li.stm-top-li {
+    position: relative; /* Ensure the submenu is positioned relative to this item */
+}
+
+/* Submenu */
+.stm-s-men {
+    display: none; /* Hidden by default */
+    position: absolute; /* Position relative to the parent menu item */
+    left: 100%; /* Place the submenu to the right of the parent menu */
+    top: 0; /* Align with the parent menu */
+    z-index: 10; /* Ensure it's above other content */
+    width: 200px; /* Adjust the width as needed */
+    padding: 10px 0px;
+}
+
+/* Show submenu on hover */
+li.stm-top-li:hover .stm-s-men {
+    display: block;
+    min-width: 320px;
+}
+
+/* Styling submenu items */
+.stm-s-men ul {
+    list-style: none; /* Remove default bullets */
+    margin: 0; /* Remove margins */
+    padding: 0; /* Remove padding */
+}
+
+.stm-s-men ul li {
+    position: relative; /* Allow further nested menus if needed */
+}
+
+.stm-m-par {
+    left: 0px;
+    min-width: 343px;
+    padding-top: 30px;
+}
+
+.stm-menu-ul {
+    border-top: 3px solid rgb(162, 144, 97, var(--tw-text-opacity));
+}
+
+.stm-top-li img {
+    --tw-rotate: 270deg !important;
+    float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+.appheader-content .wpml-ls-legacy-dropdown {
+    position: relative;
+    margin-left: auto;
+    max-width: 100%;
+    width: auto;
+    margin: 0 25px 0 10px;
+}
+.appheader-content .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    padding: 0;
+    border: 0;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.appheader-content .wpml-ls-legacy-dropdown .wpml-ls-flag {
+    display: inline;
+    vertical-align: middle;
+}
+.appheader-content .wpml-ls-legacy-dropdown .wpml-ls-flag+span {
+    font-size: 0;
+}
+.appheader-content .wpml-ls-legacy-dropdown:before {
+    content: "";
+    background-image: url(assets/images/arrow_down.webp);
+    height: 6px;
+    width: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    display: none;
+}
+.appheader-content .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:after {
+    content: none;
+}
+.appheader-content .wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
+    width: auto;
+    border: 0;
+    right: auto;
+    padding-top: 6px;
+    transition: all .3s ease;
+}
+.appheader-content .wpml-ls-legacy-dropdown .wpml-ls-sub-menu:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-bottom: 7px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+.appheader-content .wpml-ls.wpml-ls-legacy-dropdown ul.wpml-ls-sub-menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    padding: 0;
+    border: 0;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    border-radius: 10px 10px 0 0;
+}
+.appheader-content .wpml-ls.wpml-ls-legacy-dropdown ul.wpml-ls-sub-menu li:last-child a {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.appheader-content .wpml-ls.wpml-ls-legacy-dropdown ul.wpml-ls-sub-menu li a .wpml-ls-display {
+    display: none;
+}
+
