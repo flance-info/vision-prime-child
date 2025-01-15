@@ -74,7 +74,7 @@ $bg_image        = ! empty( $settings["section_background_image"]['url'] ) ? esc
 			<span class="supports-[counter-set]:sr-only">15</span>
 		</b>
 		<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-			years of experience
+			<?php echo esc_html__('Years of Experience', 'vision-prime'); ?>
 		</div>
 	</div>
 	<div class=" flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq950:w-[23%] mq650:min-w-[100px]  mq950:min-w-[150px] ">
@@ -85,7 +85,7 @@ $bg_image        = ! empty( $settings["section_background_image"]['url'] ) ? esc
 			<span class="supports-[counter-set]:sr-only">100</span>+
 		</b>
 		<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-			dedicated team
+			<?php echo esc_html__('dedicated team', 'vision-prime'); ?>
 		</div>
 	</div>
 	<div class=" flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq950:w-[23%] mq650:min-w-[100px]  mq950:min-w-[150px]">
@@ -96,7 +96,7 @@ $bg_image        = ! empty( $settings["section_background_image"]['url'] ) ? esc
 			<span class="supports-[counter-set]:sr-only">2500</span>+
 		</b>
 		<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-			consultations
+			<?php echo esc_html__('consultations', 'vision-prime'); ?>
 		</div>
 	</div>
 	<div class=" flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq950:w-[23%] mq650:min-w-[100px] text-center  mq950:min-w-[150px]">
@@ -105,7 +105,7 @@ $bg_image        = ! empty( $settings["section_background_image"]['url'] ) ? esc
 			<span class="supports-[counter-set]:sr-only">5000</span>+
 		</b>
 		<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
-			audit completed
+			<?php echo esc_html__('audit completed', 'vision-prime'); ?>
 		</div>
 	</div>
 </div>
@@ -120,7 +120,7 @@ $bg_image        = ! empty( $settings["section_background_image"]['url'] ) ? esc
 			<span class="supports-[counter-set]:sr-only">15</span>
 		</b>
 		<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-			years of experience
+			<?php echo esc_html__('Years of Experience', 'vision-prime'); ?>
 		</div>
 	</div>
 	<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]">
@@ -131,7 +131,7 @@ $bg_image        = ! empty( $settings["section_background_image"]['url'] ) ? esc
 			<span class="supports-[counter-set]:sr-only">100</span>+
 		</b>
 		<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-			dedicated team
+			<?php echo esc_html__('dedicated team', 'vision-prime'); ?>
 		</div>
 	</div>
 	<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]">
@@ -142,7 +142,7 @@ $bg_image        = ! empty( $settings["section_background_image"]['url'] ) ? esc
 			<span class="supports-[counter-set]:sr-only">2500</span>+
 		</b>
 		<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-			consultations
+			<?php echo esc_html__('consultations', 'vision-prime'); ?>
 		</div>
 	</div>
 	<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] text-center">
@@ -151,7 +151,7 @@ $bg_image        = ! empty( $settings["section_background_image"]['url'] ) ? esc
 			<span class="supports-[counter-set]:sr-only">5000</span>+
 		</b>
 		<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
-			audit completed
+			<?php echo esc_html__('audit completed', 'vision-prime'); ?>
 		</div>
 	</div>
 </div>

@@ -22,7 +22,7 @@
                     </div>
 
 				<?php else : ?>
-                    <p><?php esc_html_e('No posts found.', 'vision-prime-child'); ?></p>
+                    <p><?php esc_html_e('No posts found.', 'vision-prime'); ?></p>
 				<?php endif; ?>
             </div>
 

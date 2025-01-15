@@ -181,7 +181,7 @@ $post_author_position_tag = $settings['post_author_position_html_tag'] ?? 'h3';
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
 												</div>
 												<div class="w-[95px] relative font-medium inline-block">
-													4.7 on Google
+													<?php echo esc_html__('4.7 on Google', 'vision-prime'); ?>
 												</div>
 											</div>
 										</div>
@@ -203,7 +203,7 @@ $post_author_position_tag = $settings['post_author_position_html_tag'] ?? 'h3';
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-9.svg">
 												</div>
 												<div class="self-stretch relative font-medium">
-													4.2 on Trustpilot
+													<?php echo esc_html__('4.2 on Trustpilot', 'vision-prime'); ?>
 												</div>
 											</div>
 										</div>
@@ -226,7 +226,7 @@ $post_author_position_tag = $settings['post_author_position_html_tag'] ?? 'h3';
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
 												</div>
 												<div class="self-stretch relative font-medium">
-													5.0 on Capterra
+													<?php echo esc_html__('5.0 on Capterra', 'vision-prime'); ?>
 												</div>
 											</div>
 										</div>
@@ -238,7 +238,7 @@ $post_author_position_tag = $settings['post_author_position_html_tag'] ?? 'h3';
 												<p class="m-0">
 													<b>2 000+</b>
 												</p>
-												<p class="m-0 text-sm font-medium">Happy Customers</p>
+												<p class="m-0 text-sm font-medium"><?php echo esc_html__('Happy Customers', 'vision-prime'); ?></p>
 											</div>
 										</div>
 

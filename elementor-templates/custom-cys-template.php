@@ -80,7 +80,7 @@ $subtitle_tag    = $settings['subtitle_html_tag'] ?? 'h3';
 					</<?php echo esc_attr($description_tag); ?>>
 
 					</div>
-					<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
+					<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]"><?php echo esc_html__('Read more', 'vision-prime'); ?></a>
 				</div>
 				<?php endforeach; ?>
 				</div>
